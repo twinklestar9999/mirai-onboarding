@@ -48,24 +48,22 @@ uv --version && node --version && pnpm --version && docker --version && just --v
 
 ## 3. SSH for source control
 
-You'll push many times a day. Set this up once instead of typing a password forever.
+You'll push many times a day, so set this up once properly rather than typing a password
+forever. The full walkthrough — keys, passphrase, the agent, several accounts on one
+machine, and what to do when it says `Permission denied` — is in
+[git setup](09-git-setup.md). Do that page now, then come back.
+
+The short version:
 
 ```bash
-ssh-keygen -t ed25519 -C "your.work@email"
-cat ~/.ssh/id_ed25519.pub          # this is the part you paste into the web UI
+ssh-keygen -t ed25519 -C "your.work@email"   # use a passphrase
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub                    # paste this into your account settings
+ssh -T git@<!-- TODO(team): git host -->     # should greet you by name
 ```
 
-Add the public key in your source control settings, then verify:
-
-```bash
-ssh -T git@<!-- TODO(team): git host -->
-```
-
-You should see a greeting with your username.
-
-> **If that fails:** `Permission denied (publickey)` means the key isn't registered.
-> Check you pasted the `.pub` file. Never paste the file *without* `.pub` — that one is
-> a secret, and pasting it means generating a new pair.
+> **Never paste the file *without* `.pub`.** That one is the private key. Pasting it
+> anywhere means generating a new pair and saying so.
 
 ## 4. Clone and run
 

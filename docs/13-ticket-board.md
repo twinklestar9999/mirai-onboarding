@@ -116,7 +116,8 @@ you've been stuck for a while — the struggle before the hint is where the lear
 - [ ] [Stack](01-stack.md) and [common stacks](02-common-stacks.md) read
 - [ ] [Project spec](03-project-spec.md) read
 - [ ] [Setup](04-setup.md) complete — the app runs locally
-- [ ] [Git workflow](09-git-workflow.md) read
+- [ ] [Git setup](09-git-setup.md) done — `ssh -T` greets you by name
+- [ ] [Git workflow](10-git-workflow.md) read — branch naming, commits, PR rules
 - [ ] You know the 30-minute rule from [asking for help](06-asking-for-help.md)
 - [ ] [Using Claude](07-using-claude.md) read — especially the rules section
 

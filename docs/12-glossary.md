@@ -40,6 +40,30 @@ work. Ask first, always.
 
 **CODEOWNERS** — A file saying who must review changes to which parts of the code.
 
+**trunk-based development** — One long-lived branch (`main`), short-lived feature branches
+off it. What this program uses.
+
+**GitFlow** — The alternative: long-lived `develop`, `release/*` and `hotfix/*` branches.
+Designed for versioned software on a release schedule.
+
+**protected branch** — A branch you can't push to directly; changes arrive by reviewed PR.
+
+**promotion** — Moving the *same build* from one environment to the next, rather than
+rebuilding per environment. A rebuild is a different artifact, so staging would no longer
+be testing what production runs.
+
+**Conventional Commits** — The `type(scope): subject` message format. Machine-readable, so
+changelogs and version numbers generate themselves.
+
+**squash merge** — Collapsing a branch's commits into one on `main`. Makes the PR title
+permanent, which is why a lazy title costs you.
+
+**ssh-agent** — Holds your decrypted private key for the session, so a passphrase is typed
+once rather than every push.
+
+**signing key** — Proves a commit came from you. A separate list from authentication keys
+in your account settings, which is the usual confusion.
+
 ## Environments and shipping
 
 **local** — On your machine. **staging** — A production-like environment for testing
@@ -386,4 +410,4 @@ only producing text.
 
 ---
 
-**Next:** [The ticket board](12-ticket-board.md) — the program itself
+**Next:** [The ticket board](13-ticket-board.md) — the program itself

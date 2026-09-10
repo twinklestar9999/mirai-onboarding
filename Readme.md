@@ -31,7 +31,7 @@ Read these, in order. About two and a half hours total.
 | 4 | [Asking for help](docs/06-asking-for-help.md) | Read this **before** you get stuck, not after |
 | 5 | [Using Claude](docs/07-using-claude.md) | How to use an AI assistant without hollowing out your own learning |
 
-Then open [the ticket board](docs/12-ticket-board.md) and start at MIRAI-001.
+Then open [the ticket board](docs/13-ticket-board.md) and start at MIRAI-001.
 
 ---
 
@@ -75,9 +75,10 @@ rest when a ticket needs it.
 | [Using Claude](docs/07-using-claude.md) | Where it helps, where it quietly hurts, and the rules here |
 | [Design with Claude](docs/08-design-with-claude.md) | Sketching a screen before you build it — for epic 05 |
 | [Asking for help](docs/06-asking-for-help.md) | The 30-minute rule, and how to ask so you get answered |
-| [Git workflow](docs/09-git-workflow.md) | Branches, commits, pull requests, getting out of trouble |
-| [Code review](docs/10-code-review.md) | Getting reviewed, and reviewing others |
-| [Glossary](docs/11-glossary.md) | Every term we use that nobody explains |
+| [Git setup](docs/09-git-setup.md) | SSH keys, identity, signing, and the settings worth having |
+| [Git workflow](docs/10-git-workflow.md) | Branch model across environments, naming, Conventional Commits, PR rules |
+| [Code review](docs/11-code-review.md) | Getting reviewed, and reviewing others |
+| [Glossary](docs/12-glossary.md) | Every term we use that nobody explains |
 
 ---
 

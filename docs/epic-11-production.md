@@ -206,4 +206,4 @@ you learned transfers. Stacks change. It's the habits:
 reproduce before you fix, test the negative cases, read the plan before you apply, and
 tell someone early when you're stuck.
 
-**Back to:** [the board](12-ticket-board.md) · [the guide](../Readme.md)
+**Back to:** [the board](13-ticket-board.md) · [the guide](../Readme.md)

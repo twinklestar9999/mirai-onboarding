@@ -147,4 +147,4 @@ it looks like.
 
 ---
 
-**Next:** [Git workflow](09-git-workflow.md) — branches, commits, and pull requests
+**Next:** [Git setup](09-git-setup.md) — SSH keys, identity, and settings worth having
